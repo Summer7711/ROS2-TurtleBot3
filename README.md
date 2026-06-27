@@ -19,7 +19,7 @@
 导航框架	      Nav2	        路径规划与导航	    Humble
 建图工具	      SLAM Toolbox	同步定位与地图构建	Humble
 
-**项目环境依赖完整清单**
+**一、项目环境依赖完整清单**
 
 1.ROS 2 核心包
 ros-humble-desktop
