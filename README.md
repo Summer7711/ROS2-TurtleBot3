@@ -1,4 +1,4 @@
-**项目：基于ROS2 Humble TurtleBot3扩展多目标顺序导航+动态避障**
+#**项目：基于ROS2 Humble TurtleBot3扩展多目标顺序导航+动态避障**
 本项目属于模式一课堂实例扩展，基于 ROS2 Humble、TurtleBot3 仿真平台，在课堂单点定点导航基础上做功能拓展，研究室内两轮差速机器人智能自主导航技术。
 
 **核心功能**
@@ -58,16 +58,16 @@ cd ~/ros_ws/src
 把完整的 multi_goal_nav 文件夹复制到 ~/ros_ws/src/ 路径下
 
 3.返回工作区根目录编译
-# 回到ros_ws根目录
+##回到ros_ws根目录
 cd ~/ros_ws
-# 编译全部src下功能包
+##编译全部src下功能包
 colcon build
-# 只编译本项目功能包（推荐，编译更快）
+##只编译本项目功能包（推荐，编译更快）
 colcon build --packages-select multi_goal_nav
 
 4. 刷新环境变量（每次新开终端必执行）
 source install/setup.bash
-# 永久生效（可选，写入终端配置文件）
+##永久生效（可选，写入终端配置文件）
 echo "source ~/ros_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 
