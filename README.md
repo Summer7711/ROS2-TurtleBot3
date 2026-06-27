@@ -1,4 +1,4 @@
-#**项目：基于ROS2 Humble TurtleBot3扩展多目标顺序导航+动态避障**
+**项目：基于ROS2 Humble TurtleBot3扩展多目标顺序导航+动态避障**
 本项目属于模式一课堂实例扩展，基于 ROS2 Humble、TurtleBot3 仿真平台，在课堂单点定点导航基础上做功能拓展，研究室内两轮差速机器人智能自主导航技术。
 
 **核心功能**
@@ -49,9 +49,9 @@ pip3 install pyttsx3                # Python TTS 库（网络限制）
 ## 二、编译步骤
 
 1. 新建工作空间文件夹
-# 创建ros_ws工作区，内部自动生成src源码目录
+##创建ros_ws工作区，内部自动生成src源码目录
 mkdir -p ~/ros_ws/src
-# 进入源码目录src
+##进入源码目录src
 cd ~/ros_ws/src
 
 2. 放入项目功能包
